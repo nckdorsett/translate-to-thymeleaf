@@ -5,8 +5,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class complimentController {
-
-
+public class ComplimentController {
+    
+//    @GetMapping
+//    public String home()
 
 }
