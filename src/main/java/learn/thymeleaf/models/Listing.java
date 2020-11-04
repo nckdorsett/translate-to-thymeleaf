@@ -51,6 +51,9 @@ public class Listing {
         String encouragement = encouragements.get(random.nextInt(encouragements.size()));
         System.out.println(encouragement);
         return encouragement;
+    }
 
+    public String getPersonalizedEncouragement(String value) {
+        return value + getRandomEncouragement();
     }
 }
